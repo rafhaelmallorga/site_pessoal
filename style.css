@@ -1,7 +1,26 @@
 /*Paleta
 #282A36,#44475A,#44475A,#8BE9FD,#6272A4,#FFFFFF,#50FA7B,#FF5555
 */
+@font-face {
+    font-family: 'LasEnter';
+    src: url(/assets/fonts/LasEnter_PersonalUseOnly.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'NeonCity';
+    src: url(/assets/fonts/NeoncityDisplay-MVVLv.otf) format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SunsetClub';
+    src: url(/assets/fonts/SunsetClubFreeTrial-2ODpw.otf) format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
 html {
+    font-family: 'LasEnter';
     font-family: 'Corinthia', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Smooch', cursive;
@@ -27,18 +46,24 @@ body {
 }
 
 .cabecalho__logo {
+    font-family: 'LasEnter', 'Corinthia', cursive;
     color: white;
     float: left;
     /*text-transform: uppercase;*/
     font-style: oblique;
 }
+@keyframes logo {
+    from {text-shadow: 0px 0px 5px white ;}
+    to {text-shadow: 0px 0px 20px white;}
+}
 .cabecalho__logo span {
     color: #50FA7B;
     font-size: 5rem;
     text-shadow: 2px 2px 15px white ;
-}
-#cabecalho__logo_titulo {
-    font-family: 'Corinthia', cursive;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .cabecalho__menuDeNavegacao{
     padding-right: 2.5em;
@@ -87,9 +112,11 @@ main {
 
 .icones img {
     width: 2rem;
+    margin: 2rem 0 0 0;
 }
 .icones img:hover {
     width: 4rem;
+    margin: 0rem 0 0 0;
     transition-duration: 0.2s;
 }
 .texto {
