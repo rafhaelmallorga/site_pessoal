@@ -3,19 +3,19 @@
 */
 @font-face {
     font-family: 'LasEnter';
-    src: url(/assets/fonts/LasEnter_PersonalUseOnly.ttf) format("truetype");
+    src: url('./assets/fonts/LasEnter_PersonalUseOnly.ttf') format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: 'NeonCity';
-    src: url(/assets/fonts/NeoncityDisplay-MVVLv.otf) format("opentype");
+    src: url('./assets/fonts/NeoncityDisplay-MVVLv.otf') format("opentype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: 'SunsetClub';
-    src: url(/assets/fonts/SunsetClubFreeTrial-2ODpw.otf) format("opentype");
+    src: url('./assets/fonts/SunsetClubFreeTrial-2ODpw.otf') format("opentype");
     font-style: normal;
     font-weight: normal;
 }
