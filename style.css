@@ -37,18 +37,31 @@ body {
 /*CABECALHO*/
 
 .cabecalho {
-    background-color: #282A36;
     display: flex;
-    width: 100%;
-    padding: 0.5em;
-    justify-content: space-around;
+    background-color: #282A36;
+}    
+
+.cabecalho_img {
+    width: 20vw;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+
+}
+.cabecalho_flex {
+    width: 80vw;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0px;
+    margin-left: auto;
+    
 }
 
 .cabecalho__logo {
     font-family: 'LasEnter', 'Corinthia', cursive;
     color: white;
-    float: left;
     /*text-transform: uppercase;*/
     font-style: oblique;
 }
@@ -91,6 +104,7 @@ body {
 /*MAIN*/
 
 main {
+    min-height: 50vh;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -158,4 +172,27 @@ main {
     background-color: #9700d3;
     color: white;
     transition-duration: 0.3s;
+}
+/*RODAPE*/
+.rodape{
+    background-color: #282A36;
+    padding: 3rem 0 0 0;
+}
+.conteudo_rodape {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.menu_rodape, .icones_rodape {
+    width: 50%;
+}
+.rodape .copyrights {
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem 0rem; 
 }

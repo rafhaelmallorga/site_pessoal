@@ -5,37 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Roboto&family=Smooch&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Roboto&family=Smooch&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     
     <title>Rafhael Mallorga</title>
 </head>
 <body>
     <header class="cabecalho">
-        <section class="cabecalho__logo">
-            <span id="cabecalho__logo__titulo">Rafhael Mallorga</span>
+        <section class="cabecalho_img"><img style="width: 90px;" src="./assets/favicons/android-chrome-512x512.png" alt=""></section>
+        <section class="cabecalho_flex">
+            <section class="cabecalho__logo">
+                <span id="cabecalho__logo__titulo">Rafhael Mallorga</span>
+            </section>
+            <nav class="cabecalho__menuDeNavegacao">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Serviços</a>
+                <a href="#">Portifólio</a>
+                <a href="#">Referências</a>
+                <a href="#">Contato</a>
+            </nav>
         </section>
-        <nav class="cabecalho__menuDeNavegacao">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Portifólio</a>
-            <a href="#">Referencias</a>
-            <a href="#">Contato</a>
-        </nav>
     </header>
-    
+
     <main>
         <section class="conteudo">
             <section class="icones">
                 <ul>
-                    <li><a href=""><img src="./assets/facebook.png" alt="Facebook logo"></a></li>
-                    <li><a href=""><img src="./assets/instagram.png" alt="Instagram logo"></a></li>
-                    <li><a href=""><img src="./assets/github.png" alt="GitHub Logo"></a></li>
-                    <li><a href=""><img src="./assets/linkedin.png" alt="LinkedIn logo"></a></li>
-                    <li><a href=""><img src="./assets/gmail.png" alt="Gmail logo"></a></li>
+                    <li><a href="https://www.facebook.com/rafhael.mallorga" target="_blank"><img src="./assets/facebook.png" alt="Facebook logo"></a></li>
+                    <li><a href="https://www.instagram.com/rafhaelmallorga/" target="_blank"><img src="./assets/instagram.png" alt="Instagram logo"></a></li>
+                    <li><a href="https://github.com/rafhaelmallorga" target="_blank"><img src="./assets/github.png" alt="GitHub Logo"></a></li>
+                    <li><a href="https://www.linkedin.com/in/rafhael-mallorga-44632494/" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn logo"></a></li>
+                    <li><a href="mailto:rafhaelmallorga@gmail.com" target="_blank"><img src="./assets/gmail.png" alt="Gmail logo"></a></li>
                 </ul>
             </section>
             <section class="texto">
@@ -49,8 +56,30 @@
         </section>
     </main>
 
-    <footer>
-
+    <footer class="rodape">
+        <section class="conteudo_rodape">
+            <nav class="menu_rodape">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portifólio</a></li>
+                    <li><a href="#">Referências</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <section class="icones_rodape">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Email</a></li>
+                </ul>
+            </section>
+        </section>
+        
+        <section class="copyrights">&copy; Rafhael Mallorga. All rights reserved.</section>
     </footer>
 </body>
 </html>
